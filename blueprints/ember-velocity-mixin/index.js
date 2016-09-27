@@ -5,6 +5,6 @@ module.exports = {
   normalizeEntityName: function() {},
 
   afterInstall: function(options) {
-    this.addAddonToProject('ember-cli-velocity');
+    return this.addAddonToProject('ember-cli-velocity');
   }
 };
